@@ -32,7 +32,7 @@ def descriptografar(texto, chave):   # Função para descriptografar o texto
 def main():
 
     mensagem = input("Digite a mensagem que voce deseja criptografar: ")   #Pelo amor de deus, isso vc sabe ne? :P
-    chave = int(13)
+    chave = int(input("Digite a chave de Seguranca: "))
 
     mensagem_criptografada = criptografar(mensagem, chave)  #Define a mensagem criptografada nessa variável
     
